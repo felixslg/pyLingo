@@ -25,7 +25,7 @@
 
 ```bash
 git clone https://github.com/felixslg/pyLingo.git
-cd easytranslate
+cd pyLingo
 python -m venv venv
 venv\Scripts\activate      # Windows
 # oder
