@@ -19,3 +19,6 @@ def translate_text(text, src_lang, dest_lang):
         return result.text
     except Exception as e:
         return f"Fehler bei der Übersetzung: {e}"
+    
+
+
