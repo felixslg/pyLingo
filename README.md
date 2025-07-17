@@ -24,7 +24,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/felixslg/easytranslate.git
+git clone https://github.com/felixslg/pyLingo.git
 cd easytranslate
 python -m venv venv
 venv\Scripts\activate      # Windows
