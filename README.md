@@ -2,7 +2,8 @@
 
 **EasyTranslate** ist ein moderner, plattformunabhängiger Desktop-Übersetzer mit Sprachausgabe und einfacher Bedienung, entwickelt mit Python, PyQt6 und Google Text-to-Speech (gTTS).
 
-![Screenshot](https://imgur.com/a/kbEv5sy) <!-- Füge einen Screenshot hinzu, falls vorhanden -->
+<img width="406" height="612" alt="image" src="https://github.com/user-attachments/assets/85613448-53e1-4fd4-9a61-2a7e29ee56d8" />
+
 
 ## Features
 
