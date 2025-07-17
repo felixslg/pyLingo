@@ -1,34 +1,28 @@
-pyLingo
-pyLingo ist ein moderner, plattformunabhängiger Desktop-Übersetzer mit Sprachausgabe und einfacher Bedienung, entwickelt mit Python, PyQt6 und Google Text-to-Speech (gTTS).
+# EasyTranslate
 
-<!-- Füge einen Screenshot hinzu, falls vorhanden -->
+**EasyTranslate** ist ein moderner, plattformunabhängiger Desktop-Übersetzer mit Sprachausgabe und einfacher Bedienung, entwickelt mit Python, PyQt6 und Google Text-to-Speech (gTTS).
 
-Features
-Schnelle Textübersetzung zwischen Deutsch, Englisch, Spanisch, Französisch und Italienisch
+![Screenshot](https://imgur.com/a/kbEv5sy)) <!-- Füge einen Screenshot hinzu, falls vorhanden -->
 
-Sprachauswahl über intuitive Drop-down-Menüs
+## Features
 
-Kopieren der Übersetzung per Knopfdruck
+- **Schnelle Textübersetzung** zwischen Deutsch, Englisch, Spanisch, Französisch und Italienisch
+- **Sprachauswahl** über intuitive Drop-down-Menüs
+- **Kopieren der Übersetzung** per Knopfdruck
+- **Vorlesen des Ergebnisses** (Text-to-Speech) direkt im Programm
+- **Modernes, responsives UI** (an iOS angelehnt)
+- **Benachrichtigungen** bei Aktionen (z.B. „Kopiert!“ oder „Vorlesen…“)
 
-Vorlesen des Ergebnisses (Text-to-Speech) direkt im Programm
+## Technologie
 
-Modernes, responsives UI (an iOS angelehnt)
+- **Python 3**
+- **PyQt6** (für die Benutzeroberfläche)
+- **gtts** (Google Text-to-Speech)
+- **playsound** (Audio-Ausgabe)
 
-Benachrichtigungen bei Aktionen (z.B. „Kopiert!“ oder „Vorlesen…“)
+## Installation
 
-Technologie
-Python 3
-
-PyQt6 (für die Benutzeroberfläche)
-
-gtts (Google Text-to-Speech)
-
-playsound (Audio-Ausgabe)
-
-Installation
-bash
-Kopieren
-Bearbeiten
+```bash
 git clone https://github.com/deinusername/easytranslate.git
 cd easytranslate
 python -m venv venv
@@ -38,7 +32,3 @@ source venv/bin/activate   # Linux/Mac
 
 pip install -r requirements.txt
 python src/main.py
-Hinweise
-Für Text-to-Speech ist eine Internetverbindung erforderlich (gTTS nutzt Google-API).
-
-Getestet unter Windows 10/11. Für Linux/Mac kann es zu Anpassungsbedarf bei der Audio-Ausgabe kommen.
