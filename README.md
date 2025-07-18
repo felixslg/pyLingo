@@ -23,6 +23,8 @@
 
 ## Installation
 
+Bitte zuerst Fonts aus dem Resource Ordner installieren.
+
 ```bash
 git clone https://github.com/felixslg/pyLingo.git
 cd pyLingo
