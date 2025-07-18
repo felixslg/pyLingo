@@ -11,7 +11,7 @@
 - **Sprachauswahl** über intuitive Drop-down-Menüs
 - **Kopieren der Übersetzung** per Knopfdruck
 - **Vorlesen des Ergebnisses** (Text-to-Speech) direkt im Programm
-- **Modernes, responsives UI** (an iOS angelehnt)
+- **Modernes UI**
 - **Benachrichtigungen** bei Aktionen (z.B. „Kopiert!“ oder „Vorlesen…“)
 
 ## Technologie
