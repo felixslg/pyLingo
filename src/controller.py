@@ -20,21 +20,6 @@ LANG_MAP = {
     "Italienisch": "it"
 }
 
-class TTSThread(QThread):
-    finished_signal = pyqtSignal()
-
-    def __init__(self, filename):
-        super().__init__()
-        self.filename = filename
-
-    def run(self):
-        from playsound import playsound
-        try:
-            playsound(self.filename)
-        except Exception:
-            pass
-        self.finished_signal.emit()
-
 def translate_text(text, src_lang, dest_lang):
     translator = Translator()
     src = LANG_MAP.get(src_lang, "de")

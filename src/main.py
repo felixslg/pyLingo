@@ -1,13 +1,5 @@
-from PyQt6.QtWidgets import QApplication, QMainWindow
-from PyQt6 import QtCore, QtWidgets
+from PyQt6.QtWidgets import QApplication
 import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from ui.gui import Ui_MainWindow
-from gtts import gTTS
-from playsound import playsound
-import tempfile
-from PyQt6.QtCore import QThread, pyqtSignal
 from controller import MainWindow
 
 
